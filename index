@@ -13,19 +13,20 @@
             align-items: center;
             min-height: 100vh;
             
-            /* Fundo configurado para o arquivo que você subiu */
-            background-image: url('fundo.jpg');
+            /* Ajustado para .png */
+            background-image: url('fundo.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-color: #fce4ec; /* Cor de fundo caso a imagem falhe */
         }
         .container {
             position: relative;
             width: 100%;
             max-width: 500px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            border-radius: 15px;
             overflow: hidden;
             background-color: white;
         }
@@ -43,7 +44,7 @@
             /* background: rgba(255, 0, 0, 0.3); */ /* Remova o comentário para testar o clique */
         }
 
-        /* Posicionamento dos botões */
+        /* Posicionamento dos botões conforme seu projeto */
         #btn-local {
             left: 23%;
             bottom: 20.5%;
@@ -61,12 +62,12 @@
 <body>
 
 <div class="container">
-    <img src="Convite Maria.jpg" alt="Convite Maria Liz">
+    <img src="convitemaria.png" alt="Convite Maria Liz">
 
     <a href="https://maps.app.goo.gl/uC6mjtrPqPzcViEA7" target="_blank" class="btn" id="btn-local" title="Localização"></a>
     <a href="https://forms.gle/LzbDTu873r8hxgs4A" target="_blank" class="btn" id="btn-confirmar" title="Confirmar Presença"></a>
     
-    <a href="Sugestao de presente.jpg" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
+    <a href="presente.png" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
 </div>
 
 </body>
