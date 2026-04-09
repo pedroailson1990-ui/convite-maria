@@ -13,8 +13,8 @@
             align-items: center;
             min-height: 100vh;
             
-            /* Imagem de Fundo */
-            background-image: url('file:///C:/Users/PEDRO/Desktop/teste/fundo.png');
+            /* Fundo configurado para o arquivo que você subiu */
+            background-image: url('fundo.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -24,9 +24,10 @@
             position: relative;
             width: 100%;
             max-width: 500px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
             border-radius: 10px;
             overflow: hidden;
+            background-color: white;
         }
         .container img {
             width: 100%;
@@ -38,10 +39,11 @@
             height: 10%; 
             border-radius: 50%;
             cursor: pointer;
-            /* background: rgba(255, 0, 0, 0.4); <-- Remova o comentário para visualizar as áreas de clique */
+            text-decoration: none;
+            /* background: rgba(255, 0, 0, 0.3); */ /* Remova o comentário para testar o clique */
         }
 
-        /* Novo ajuste de altura solicitado: 20.5% */
+        /* Posicionamento dos botões */
         #btn-local {
             left: 23%;
             bottom: 20.5%;
@@ -59,11 +61,12 @@
 <body>
 
 <div class="container">
-    <img src="file:///C:/Users/PEDRO/Desktop/teste/Convite%20Maria.png" alt="Convite Maria Liz">
+    <img src="Convite Maria.jpg" alt="Convite Maria Liz">
 
     <a href="https://maps.app.goo.gl/uC6mjtrPqPzcViEA7" target="_blank" class="btn" id="btn-local" title="Localização"></a>
     <a href="https://forms.gle/LzbDTu873r8hxgs4A" target="_blank" class="btn" id="btn-confirmar" title="Confirmar Presença"></a>
-    <a href="file:///C:/Users/PEDRO/Desktop/teste/Sugestao%20de%20presente.png" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
+    
+    <a href="Sugestao de presente.jpg" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
 </div>
 
 </body>
