@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite Maria Liz</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            
+            /* Imagem de Fundo */
+            background-image: url('file:///C:/Users/PEDRO/Desktop/teste/fundo.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .container img {
+            width: 100%;
+            display: block;
+        }
+        .btn {
+            position: absolute;
+            width: 15%;  
+            height: 10%; 
+            border-radius: 50%;
+            cursor: pointer;
+            /* background: rgba(255, 0, 0, 0.4); <-- Remova o comentário para visualizar as áreas de clique */
+        }
+
+        /* Novo ajuste de altura solicitado: 20.5% */
+        #btn-local {
+            left: 23%;
+            bottom: 20.5%;
+        }
+        #btn-confirmar {
+            left: 42%;
+            bottom: 20.5%;
+        }
+        #btn-presente {
+            left: 61%;
+            bottom: 20.5%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="file:///C:/Users/PEDRO/Desktop/teste/Convite%20Maria.png" alt="Convite Maria Liz">
+
+    <a href="https://maps.app.goo.gl/uC6mjtrPqPzcViEA7" target="_blank" class="btn" id="btn-local" title="Localização"></a>
+    <a href="https://forms.gle/LzbDTu873r8hxgs4A" target="_blank" class="btn" id="btn-confirmar" title="Confirmar Presença"></a>
+    <a href="file:///C:/Users/PEDRO/Desktop/teste/Sugestao%20de%20presente.png" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
+</div>
+
+</body>
+</html>
