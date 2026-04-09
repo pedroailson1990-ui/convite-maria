@@ -67,7 +67,7 @@
     <a href="https://maps.app.goo.gl/uC6mjtrPqPzcViEA7" target="_blank" class="btn" id="btn-local" title="Localização"></a>
     <a href="https://forms.gle/LzbDTu873r8hxgs4A" target="_blank" class="btn" id="btn-confirmar" title="Confirmar Presença"></a>
     
-    <a href="presente.png" target="_blank" class="btn" id="btn-presente" title="Sugestão de Presente"></a>
+    <a href="presente.png" target="_blank" class="btn" id="btn-presente" title="sugestaodepresente"></a>
 </div>
 
 </body>
